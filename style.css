@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Nourd';
+    src: url('fonts/Nourd-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.anushi{
+    border-radius: 50%;
+}
+.nourd{
+    font-family: 'Nourd', sans-serif;
+    color: #86A788;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    padding-left: 0;
+}
+.lead{
+    font-family: 'Nourd', sans-serif;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f8f0;
+    padding: 40px 0px;
+}
+ul {
+    font-family: 'Nourd', sans-serif;
+    list-style-type: none; 
+    padding-top: 20px;
+    padding-left: 0 !important; 
+  }
+  
+ul li {
+    position: relative; 
+    padding-left: 20px; 
+    font-family: 'Nourd',sans-serif;
+    font-size: 1.25rem;
+}
+  
+ul li::before {
+    content: '•'; 
+    position: absolute;
+    left: 0; 
+    color: #FFCFCF; 
+    font-size: 20px; 
+}
+section{
+    background-color: #f9f8f0;
+    padding: 20px;
+    height: 500px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 0.6fr;
+    width: 50%;
+    padding-top: 70px;
+    margin-left: 350px;
+}
+footer{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    background-color: #f9f8f0;
+    padding: 20px;
+}
+p{
+    background-color: #f9f8f0;
+}
+.about{
+    text-align: justify;
+    padding: 30px;
+}
